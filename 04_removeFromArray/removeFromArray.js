@@ -1,5 +1,5 @@
 const removeFromArray = function(inputArray, valueToRemove) {
-    for (i = 0; i = inputArray.length; i++) {
+    for (i = 0; i < inputArray.length; i++) {
         if (inputArray[i] === valueToRemove) {
             inputArray.splice(i);
         }
