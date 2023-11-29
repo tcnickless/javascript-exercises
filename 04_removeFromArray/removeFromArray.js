@@ -1,7 +1,8 @@
 const removeFromArray = function(inputArray, valueToRemove) {
+    let outPutArray = [];
     for (i = 0; i < inputArray.length; i++) {
         if (inputArray[i] === valueToRemove) {
-            let outputArray = inputArray.splice(i);
+            outputArray = inputArray.splice(i);
         }
     }
     return outputArray;
