@@ -1,9 +1,13 @@
 const repeatString = function(text, repeatNumber) {
     let repeatedString = "";
-    for (let i=0; i<repeatNumber; i++) {
-	    repeatedString += text;
+    if (repeatNumber >= 0) {
+        for (let i=0; i<repeatNumber; i++) {
+            repeatedString += text;
+        }
+        return repeatedString;
+    } else {
+	return 'ERROR';
     }
-    return repeatedString;
 };
 
 // Do not edit below this line
