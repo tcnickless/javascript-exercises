@@ -1,4 +1,4 @@
-const removeFromArray = function(inputArray, valueToRemove) {
+const removeFromArray = function(inputArray) {
     for (i = 0; i < inputArray.length; i++) {
         for (j = 1; j <= arguments.length; j++) {
             if (inputArray[i] === arguments[j]) {
