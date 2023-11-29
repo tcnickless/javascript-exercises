@@ -1,6 +1,7 @@
 const repeatString = function(text, repeatNumber) {
+    let repeatedString = "";
     for (let i=0; i<repeatNumber; i++;) {
-	    console.log(text);
+	    repeatedString = repeatedString + text;
     }
 };
 
