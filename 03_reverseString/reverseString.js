@@ -1,9 +1,12 @@
 const reverseString = function(text) {
-    let splitString = text.split("");
-    let reversedString = "";
+    //let splitString = text.split("");
+    //let reversedString = "";
 
-    let reversedArray = splitString.reverse();
-    reversedString = reversedArray.join("");
+    //let reversedArray = splitString.reverse();
+    //reversedString = reversedArray.join("");
+
+    reversedString = text.split("").reverse().join("");
+
     return reversedString;
 };
 
