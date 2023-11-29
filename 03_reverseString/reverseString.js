@@ -2,7 +2,7 @@ const reverseString = function(text) {
     let textArray = text.split("");
     let reversedString = "";
 
-    for (i = text.length(); i = 0; i--) {
+    for (i = text.length; i = 0; i--) {
         reversedString += textArray[i];
     }
     return reversedString;
